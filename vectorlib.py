@@ -43,7 +43,6 @@ class Vector2D:
         return math.sqrt(distVect.x**2 + distVect.y**2)
 
     def perpendicular(self):
-
         x1 = self.x
         y1 = self.y
         v1_coef = -x1/y1
